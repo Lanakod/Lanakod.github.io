@@ -1,7 +1,145 @@
-.button {
-  background-color: #1B2431;
+/*~~~~~~{ Хедер }~~~~~~*/
+
+.header-top{
+  background-color: #273142;
+  max-width: 100%;
+  max-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+}
+
+/*------[ Соц. сети ]------*/
+
+.media-list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  list-style: none;
+}
+
+.media-list li:not(:first-child){
+  margin-left: 10px;
+}
+
+/*------[ Авторизация - Регистрация ]------*/
+
+.menu-link{
+  width: 100%;
+  height: auto;
+  text-decoration: none;
   color: white;
-  display: inline-flex;
-  padding: 0px 10px 0px 10px;
+  background-color: #1B2431;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+
+.menu-list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  list-style: none;
+}
+
+.menu-list li:not(:last-child){
+  margin-right: 10px;
+}
+
+/*------[Вторая панель]------*/
+
+.header-second{
+  background-color: #4e5f7d;
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+
+  align-items: center;
+}
+
+.header-logo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+}
+
+
+/*~~~~~~{ Футер }~~~~~~*/
+
+.bottom-menu{
+  background-color: #4e5f7d;
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+
+  align-items: center;
+}
+
+/*------[ Левая часть ]------*/
+
+.search-media-box{
+  width: 33%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.search-media-box ul{
+  margin: 10px 0;
+}
+.search-media-box input{
+  max-width: 250px;
+  height: 20px;
+  background-color: #1b2431;
+  font-size: 12pt;
+  color: white;
+  padding: 0 0 0 10px;
+}
+
+/*------[ Правая часть ]------*/
+
+.footer-menu{
+  width: 33%;
+  height: auto;
+  text-align: right;
+}
+
+.footer-menu li{
+  margin: 10px 0px;
+}
+
+/*------[ Логотип посередине ]------*/
+
+.bottom-logo{
+  width: 33%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*~~~~~~{ Контент }~~~~~~*/
+
+main{
+  background-color: #1b2431;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.post{
+  max-width: 750px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto 20px auto;
+  background-color: white;
+  padding: 20px;
   border-radius: 10px;
 }
