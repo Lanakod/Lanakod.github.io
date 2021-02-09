@@ -48,6 +48,19 @@
 
 /*------[Вторая панель]------*/
 
+.search-menu{
+  display: flex;
+  flex-direction: column;
+}
+.search-menu-top input{
+  width: 100%;
+  height: 20px;
+  background-color: #1b2431;
+  font-size: 12pt;
+  color: white;
+  padding: 0 0 0 10px;
+  margin: 0 0 10px 0;
+}
 .header-second{
   background-color: #4e5f7d;
   width: 100%;
