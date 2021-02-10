@@ -57,7 +57,7 @@
   background-color: #1b2431;
   font-size: 12pt;
   color: white;
-  padding: 0 0 0 10px;
+  padding: 5px 0 5px 10px;
   margin: 0 0 10px 0;
 }
 .header-second{
@@ -110,7 +110,7 @@
   background-color: #1b2431;
   font-size: 12pt;
   color: white;
-  padding: 0 0 0 10px;
+  padding: 5px 0 5px 10px;
 }
 
 /*------[ Правая часть ]------*/
@@ -153,9 +153,8 @@ main{
   margin: 20px auto 20px auto;
   background-color: white;
   padding: 20px;
-  border-radius: 10px;
   display: flex;
-  align-items: start;
+  align-items: start; 
 }
 
 .post img{
@@ -193,6 +192,8 @@ main{
 }
 
 .post-text{
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
