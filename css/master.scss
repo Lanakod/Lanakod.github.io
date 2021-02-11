@@ -1,0 +1,207 @@
+/*~~~~~~{ Хедер }~~~~~~*/
+
+// @import '_debug.scss';
+@import '_mister-proper.scss';
+
+.header-top{
+  background-color: #273142;
+  max-width: 100%;
+  max-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+}
+
+/*------[ Соц. сети ]------*/
+
+.media-list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  list-style: none;
+  
+  li:not(:first-child){
+    margin-left: 10px;
+  }
+}
+
+/*------[ Авторизация - Регистрация ]------*/
+
+.menu-link{
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: #1B2431;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+
+.menu-list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  list-style: none;
+  
+  li:not(:last-child){
+    margin-right: 10px;
+  }
+}
+
+/*------[Вторая панель]------*/
+
+.search-menu{
+  display: flex;
+  flex-direction: column;
+}
+.search-menu-top input{
+  width: 100%;
+  height: 20px;
+  background-color: #1b2431;
+  font-size: 12pt;
+  color: white;
+  padding: 5px 0 5px 10px;
+  margin: 0 0 10px 0;
+}
+.header-second{
+  background-color: #4e5f7d;
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+
+  align-items: center;
+}
+
+.header-logo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: left;
+}
+
+
+/*~~~~~~{ Футер }~~~~~~*/
+
+.bottom-menu{
+  background-color: #4e5f7d;
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+
+  align-items: center;
+}
+
+/*------[ Левая часть ]------*/
+
+.search-media-box{
+  width: 33%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  
+  ul{
+    margin: 10px 0;
+  }
+
+  input{
+    max-width: 250px;
+    height: 20px;
+    background-color: #1b2431;
+    font-size: 12pt;
+    color: white;
+    padding: 5px 0 5px 10px;
+  }
+}
+
+/*------[ Правая часть ]------*/
+
+.footer-menu{
+  width: 33%;
+  height: auto;
+  text-align: right;
+
+  li{ margin: 10px 0px; }
+}
+
+/*------[ Логотип посередине ]------*/
+
+.bottom-logo{
+  width: 33%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*~~~~~~{ Контент }~~~~~~*/
+
+main{
+  background-color: #1b2431;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.post{
+  max-width: 720px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto 20px auto;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  align-items: start; 
+
+  img{
+    max-width: 33%;
+    height: auto;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    image-rendering: optimizeSpeed;
+  }
+
+  h1{ 
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}
+
+.post-text-button{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  a{
+    max-width: 130px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #1B2431;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+}
+
+.post-text{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+
+  p{
+    margin: 10px 0 10px 0;
+    text-align: justify;
+  }
+}
